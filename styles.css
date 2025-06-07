@@ -1,0 +1,57 @@
+h1{
+text-align:center;
+text-decoration: underline;
+}
+
+p{
+text-align:center;
+text-decoration: underline;
+}
+
+body{
+  background-color:#fdfff4;
+}
+
+#name-label, #email-label, #number-label, #device,#system,#hours,#comments{
+  font-weight: 900;
+}
+#name, #email, #number{
+  width:150px;
+  color:black;
+}
+.box{
+ 
+
+
+  border: 2px solid #333;    
+  padding: 10px;              
+  background-color: #a3ab8d;  
+  width: 300px;               
+  border-radius: 20px;       
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1); 
+   font-family: Arial, sans-serif;
+}
+button{
+  font-size:20px;
+  background-color:#fdfff4;
+  
+}
+
+textarea, select,#name,#email,#number{
+   background-color:#fdfff4;
+
+}
+textarea{width: 200px;       
+  height: 120px;       
+  padding: 10px;}
+
+  .box-container {
+  display: flex;
+    justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; 
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;}

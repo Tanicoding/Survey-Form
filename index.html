@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Survey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">TECH SURVEY</h1>
+  <p id="description"><i>Thank you for giving your time.</i></p>
+
+  <form id="survey-form">
+  
+    <div class="box-container">
+      <div class="box">
+        <label id="name-label">Name:</label><br>
+        <input id="name" type="text" required placeholder="Please enter your name"><br><br>
+
+        <label id="email-label">Email:</label><br>
+        <input id="email" type="email" required placeholder="Please enter your email"><br><br>
+
+        <label id="number-label">Age:</label><br>
+        <input id="number" type="number" required placeholder="Please enter your age" min="16" max="70"><br>
+      </div>
+
+      <div class="box">
+        <label id="device">Which devices do you use most frequently?</label><br>
+        <input type="checkbox" id="laptop" name="option" value="laptop">
+        <label for="laptop">Laptop</label><br>
+        <input type="checkbox" id="desktop" name="option" value="desktop">
+        <label for="desktop">Desktop</label><br>
+        <input type="checkbox" id="phone" name="option" value="phone">
+        <label for="phone">Smartphone</label><br>
+        <input type="checkbox" id="tablet" name="option" value="tablet">
+        <label for="tablet">Tablet</label><br>
+        <input type="checkbox" id="watch" name="option" value="watch">
+        <label for="watch">Smartwatch</label><br>
+        <input type="checkbox" id="other" name="option" value="other">
+        <label for="other">Other</label><br>
+      </div>
+    </div>
+
+    
+    <div class="box-container">
+      <div class="box">
+        <label id="system">Which operating system do you primarily use?</label><br>
+        <input type="radio" id="win" name="system" value="win">
+        <label for="win">Windows</label><br>
+        <input type="radio" id="mac" name="system" value="mac">
+        <label for="mac">macOS</label><br>
+        <input type="radio" id="lin" name="system" value="lin">
+        <label for="lin">Linux</label><br>
+        <input type="radio" id="and" name="system" value="and">
+        <label for="and">Android</label><br>
+        <input type="radio" id="ios" name="system" value="ios">
+        <label for="ios">iOS</label><br>
+        <input type="radio" id="chrome" name="system" value="chrome">
+        <label for="chrome">ChromeOS</label>
+      </div>
+
+      <div class="box">
+        <label id="hours">How many hours per day do you use technology?</label><br>
+        <select id="dropdown">
+          <option value="" disabled selected hidden>Choose an option</option>
+          <option value="one">&lt;1</option>
+          <option value="three">1–3</option>
+          <option value="five">3–5</option>
+          <option value="eight">5–8</option>
+          <option value="bad">8+</option>
+        </select>
+      </div>
+    </div>
+
+    
+    <div class="box-container">
+      <div class="box">
+        <label id="comments">Any recommendations?</label><br>
+        <textarea id="comments" name="comments" rows="4" placeholder="Share your feedback..."></textarea>
+      </div>
+    </div>
+
+    <br>
+    <div class="container">
+    <button id="submit" type="submit">Submit</button>
+    </div>
+  </form>
+</body>
+</html>
+
